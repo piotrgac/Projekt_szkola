@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+body{
+    width: 99%;
+    height: 100%;
+    background: url("img/tlo.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: ghostwhite;
+    font-family: Dosis;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(19,19,19);
+    font-size: 25px;
+}
+.welcome{
+    font-size: larger;
+    text-align: center;
+    margin-top: 20%;
+    padding: 6px;
+    background-color: rgba(0,0,0,0.4);
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 6px;
+    color: floralwhite;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-align: center;
+    width: 40%;
+    will-change: transform;
+    margin: 8px 3px 3px 3px;
+}
+button:hover{
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+button:active{
+    transform: translateY(0);
+}
+.header-button{
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 12px;
+    color: floralwhite;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-align: center;
+    width: 176px;
+    height: 50px;
+    will-change: transform;
+    margin: 5px 3px 3px 3px;
+}
+.button-box{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    margin-left: 3%;
+}
+.social-media{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 6%;
+    margin-left: 10px;
+    position: relative;
+    right: -6%;
+}
+.logo{
+    left: -120px;
+    position: relative;
+    margin-top: 10px;
+}
+.o_nas_main_content{
+    font-size: larger;
+    margin-top: 10%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    background-color: rgba(0,0,0,0.6);
+    width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.naglowek{
+    text-align: center;
+}
