@@ -156,7 +156,7 @@ button:active{
     justify-content: space-between;
     width: 100%;
 }
-.oferta_main_content{
+.main_content{
     font-size: larger;
     margin-top: 15%;
     padding-left: 25px;
@@ -167,4 +167,49 @@ button:active{
     height: 40%;
     margin-left: auto;
     margin-right: auto;
+}
+.kontakt_left-side{
+    width: 250px;
+}
+.kontakt_right-side{
+    width: 320px;
+}
+label{
+    text-align: left;
+}
+input[type="text"],textarea{
+    width: 180px;
+    float: right;
+    resize: block;
+    display:inline-block;
+    background-color: rgba(0,0,0,0);
+    color: ghostwhite;
+    border: 1px black solid;
+}
+h1,h2,h3,p{
+    cursor: default;
+}
+input[type="submit"]{
+    margin-left: 32%;
+    display: block;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 6px;
+    color: ghostwhite;
+    cursor: pointer;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-align: center;
+    width: 50%;
+    will-change: transform;
+}
+input[type="submit"]:hover{
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+input[type="submit"]:active{
+    transform: translateY(0);
 }

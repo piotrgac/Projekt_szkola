@@ -22,8 +22,35 @@
         <a href="https://twitter.com"><img src="img/twitter.png" alt="twitter logo" width="30"></a>
     </div>
 </header>
-<div class="welcome">
-    <h1>Kontakt</h1>
+<div class="main_content">
+    <h1 class="naglowek">Kontakt</h1>
+    <div class="flex-container">
+    <div class="kontakt_left-side">
+        <h3>Informacje o firmie</h3>
+    <p>
+        <strong>DEVcom sp.j.</strong><br>
+        ul. Zygmunta Augusta 103/2<br>
+        85-021, Bydgoszcz<br>
+        tel. (+48) 616 111 000<br>
+        email: devcom@firma.pl<br>
+    </div>
+    <div class="kontakt_right-side">
+        <h3>Formularz kontaktowy</h3>
+        <form method="post" action="">
+            <label for="user_name">Imię i nazwisko: </label>
+            <input type="text" id="user_name" required="required"><br>
+            <label for="email">Adres email: </label>
+            <input type="text" id="email" required="required"><br>
+            <label for="numer_telefonu">Numer telefonu: </label>
+            <input type="text" id="numer_telefonu" required="required">
+            <label for="firma">Firma: </label>
+            <input type="text" id="firma"><br>
+            <label for="tresc_pytania">Treść pytania: </label>
+            <textarea id="tresc_pytania" required="required"></textarea><br><br><br>
+            <input type="submit" value="Wyślij formularz">
+        </form>
+    </div>
+</div>
 </div>
 </body>
 </html>
