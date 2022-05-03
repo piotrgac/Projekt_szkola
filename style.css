@@ -139,6 +139,7 @@ button:active{
 .image_title{
     font-size: 2em;
     font-weight: bold;
+    margin: 10px;
 }
 .image_description{
     font-size: 1.25em;
